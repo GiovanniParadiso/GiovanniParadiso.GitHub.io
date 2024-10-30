@@ -74,21 +74,27 @@
 					</tr>
 				</tbody>
 			</table>		
-			<table>
-			<tbody>
-				<tr>
-					<td>
-						<img src="palestra.jpg" alt="Una palestra" title="Palestra">
-					</td>
-					<td>
-						<img src="moto.jpg" alt="Una moto" title="Moto">
-					</td>
-					<td>
-						<img src="neymar-jr.jpg" alt="Neymar Jr" title="Neymar Jr">
-					</td>
-				</tr>
-			</tbody>
-		</table>			
+			<div id="carouselExample" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="palestra.jpg" class="d-block w-100" alt="Palestra">
+					</div>
+					<div class="carousel-item">
+						<img src="moto.jpg" class="d-block w-100" alt="Kawasaki">
+					</div>
+					<div class="carousel-item">
+						<img src="neymar-jr.jpg" class="d-block w-100" alt="Neymar-Jr">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
 			<p>Grazie per aver visitato il mio sito web!</p>
 		</main>
 		<footer>
